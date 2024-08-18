@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Roulette</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="roulette-container">
+        <div class="pointer"></div> <!-- The pointer element -->
+        <div class="roulette">
+            <!-- Items will be populated dynamically by JavaScript -->
+        </div>
+    </div>
+
+    <button onclick="startRoulette()">Open Pack</button>
+
+    <audio id="spin-sound" src="spin-sound.mp3"></audio> <!-- Audio for spinning sound -->
+    <audio id="win-sound" src="win-sound.mp3"></audio> <!-- Audio for winning sound -->
+
+    <script src="script.js"></script>
+</body>
+</html>
